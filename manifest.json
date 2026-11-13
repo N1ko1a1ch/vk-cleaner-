@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "VK Post Cleaner",
+  "version": "1.2",
+  "description": "Automatic VK wall post cleaner",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": [
+    "*://*.vk.com/*",
+    "*://*.vk.ru/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
